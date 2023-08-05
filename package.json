@@ -1,12 +1,9 @@
 {
-  "homepage": "http://mohithkumarss.github.io/mohithkumarss",
   "name": "r3f-vite-starter",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "predeploy":"npm run dev",
-    "deploy":"gh-pages -d build",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
