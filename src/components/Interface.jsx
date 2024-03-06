@@ -71,7 +71,7 @@ const AboutSection = (props) => {
       >
         <b className="text-base">
           {" "}
-          I'm a Software Engineering & Graphic Designer.
+          I'm a Software Developer & Graphic Designer.
         </b>
         <br />
         <b className="text-sm">Welcome to my Portfolio.</b>
