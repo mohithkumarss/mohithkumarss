@@ -10,21 +10,21 @@ const Section = (props) => {
 
   return (
     <motion.section
-      className={`h-screen w-screen p-8 max-w-screen-2xl mx-auto flex flex-col items-start ${
+      className={`h-screen w-screen p-8 max-w-screen-2xl flex flex-col items-start ${
         mobileTop ? "justify-start md:justify-center" : "justify-center"
       }
   `}
       initial={{
         opacity: 0,
-        y: 50,
+        y: 25,
       }}
       whileInView={{
         opacity: 1,
         y: 0,
-        transition: {
-          duration: 1,
-          delay: 0.6,
-        },
+      }}
+      transition={{
+        duration: 1,
+        delay: 1.5,
       }}
     >
       {children}
@@ -71,7 +71,7 @@ const AboutSection = (props) => {
       >
         <b className="text-base">
           {" "}
-          I'm a Software Developer & Graphic Designer.
+          I'm a Full-Stack Developer & Graphic Designer.
         </b>
         <br />
         <b className="text-sm">Welcome to my Portfolio.</b>
@@ -106,15 +106,15 @@ const skills = [
   },
   {
     title: "C / C++",
-    level: 90,
+    level: 70,
   },
   {
     title: "Java",
-    level: 80,
+    level: 60,
   },
   {
     title: "Python",
-    level: 60,
+    level: 80,
   },
   {
     title: "HTML / CSS / SCSS",
@@ -122,15 +122,15 @@ const skills = [
   },
   {
     title: "PHP",
-    level: 75,
+    level: 65,
   },
   {
     title: "JavaScript",
-    level: 60,
+    level: 85,
   },
   {
     title: "ReactJS & NodeJS",
-    level: 50,
+    level: 80,
   },
 ];
 
